@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Responsive Portfolio Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">HealWell <span>Clinic</span></a>
+        <div class="menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Team">Team</a>
+            <a href="#Contact">Contact</a>
+            <a href="#Location">Location</a>
+        </nav>
+    </header>
+
+    <section class="home" id="Home">
+        <div class="content">
+            <h1>Welcome to <span>HealWell Clinic</span></h1>
+            <h3 class="text-animation">Our Goal, <span></span></h3>
+            <p>At HealWell Clinic, we are dedicated to providing exceptional healthcare services tailored to your needs.
+                With a team of experienced medical professionals, modern facilities, and compassionate care, we’re here
+                to support your journey to better health—every step of the way.</p>
+
+            <div class="flex-btn">
+                <a href="#Contact" class="btn book">Book Appointment</a>
+                <a href="#Contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+        <img src="images/hero.png" alt="Healthcare Team">
+    </section>
+
+
+    <section class="about" id="About">
+        <h2 class="heading">About Us</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018</div>
+                <div class="timeline-content">
+                    <h3>Our Humble Beginnings</h3>
+                    <p>Founded in 2018, HealWell Clinic began with a vision to offer affordable and accessible
+                        healthcare to the community. We started as a small clinic with a dedicated team of two doctors
+                        and a nurse.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>Expanding Services</h3>
+                    <p>In 2020, we expanded our services to include pediatrics, physiotherapy, and diagnostics, aiming
+                        to provide comprehensive care under one roof with the help of specialized professionals.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Modern Facilities</h3>
+                    <p>We upgraded our infrastructure with modern diagnostic equipment and digital health record systems
+                        to enhance patient experience, reduce wait times, and improve treatment accuracy.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h3>Trusted Community Care</h3>
+                    <p>Today,HealWell Clinic is a trusted name in the region, serving thousands of patients annually
+                        with a focus on compassionate, preventive, and personalized care. We continue to grow with your
+                        trust.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <h2 class="heading">Our Services</h2>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>General Consultation</h3>
+                <p>Comprehensive health check-ups and expert medical advice for all age groups, ensuring timely
+                    diagnosis and care for a wide range of conditions.</p>
+            </div>
+
+            <div class="box">
+                <h3>Pathology & Diagnostics</h3>
+                <p>Advanced laboratory testing, including blood tests, urine analysis, ECG, and more, with quick and
+                    accurate results to assist in effective treatment.</p>
+            </div>
+
+            <div class="box">
+                <h3>Women's Health</h3>
+                <p>Specialized care including gynecology consultations, prenatal/postnatal care, and preventive
+                    screenings tailored to women’s wellness.</p>
+            </div>
+
+            <div class="box">
+                <h3>Emergency Care</h3>
+                <p>Immediate response for urgent medical needs with our on-call doctors and first-aid-equipped
+                    facilities available during critical hours.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="team" id="Team">
+        <h2 class="heading">Our Team</h2>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/doc1.jpg" alt="Dr. Atul Mishra">
+                <h3>Dr. Atul Mishra</h3>
+                <p>Dr. Atul Mishra is our senior general physician with over 15 years of experience in internal
+                    medicine. Known for his calm demeanor and precise diagnosis, he is deeply committed to providing
+                    compassionate and comprehensive care to all patients.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/doc2.webp" alt="Dr. Sayee K">
+                <h3>Dr. Sayee K</h3>
+                <p>Specializing in pediatric care, Dr. Sayee brings a warm, friendly approach to child wellness. With
+                    over a decade of experience in treating infants and young children, she ensures that every little
+                    one receives the best care in a nurturing environment.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/doc1.jpg" alt="Dr. Dev Anand">
+                <h3>Dr. Dev Anand</h3>
+                <p>Dr. Dev Anand is an experienced physiotherapist focused on rehabilitation and chronic pain
+                    management. His personalized therapy plans and hands-on techniques have helped hundreds of patients
+                    regain strength and mobility with confidence.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="Contact">
+        <h2 class="heading">contact <span>Us</span></h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="inputs">
+                    <input type="text" placeholder="full name" class="input">
+                    <input type="email" placeholder="email" class="input">
+                    <input type="number" placeholder="phone number" class="input">
+                    <input type="text" placeholder="subject" class="input">
+                </div>
+                <div class="text">
+                    <textarea placeholder="your message"></textarea>
+                    <a href="#" class="btn">send message</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="location" id="Location">
+        <h2 class="heading">Our <span>Location</span></h2>
+        <div class="map-container">
+            <iframe class="fade-in-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.041287400657!2d73.84710157473004!3d18.568205467614643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c08800a0f4c5%3A0x91985a29f1f1274a!2sDeccan%20Gymkhana%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1713428100000!5m2!1sen!2sin"
+                width="80%%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="icons">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+        </div>
+        <div class="credit">
+            <p><i class="fa fa-copyright" aria-hidden="true"></i> HealWell Clinic <span>||</span> all rights reserved
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
